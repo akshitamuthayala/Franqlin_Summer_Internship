@@ -37,7 +37,7 @@ Front end user interface for an e-commerce platform with **Home**, **Login**, an
   - Valid email format
   - Alert on success or error
 
-### 📝 Registration Page (`register.html`)
+### Registration Page (`register.html`)
 - **Fields:**
   - Full Name
   - Email
