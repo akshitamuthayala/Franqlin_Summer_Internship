@@ -1,4 +1,4 @@
-# 🛒 E-Commerce UI – Login & Registration
+# E-Commerce UI – Login & Registration
 
 ## WEEK - 1 Progress
 
@@ -22,15 +22,15 @@ A simple front-end UI for an e-commerce platform with **Home**, **Login**, and *
 **
 ---
 
-## 🌐 Pages Overview
+## Pages Overview
 
-### 🏠 Home Page (`index.html`)
+### Home Page (`index.html`)
 - Welcome message
 - Buttons:
   - **Login** → `login.html`
   - **Register** → `register.html`
 
-### 🔐 Login Page (`login.html`)
+### Login Page (`login.html`)
 - **Fields:** Email/Username, Password  
 - **Validation:**
   - Required fields
