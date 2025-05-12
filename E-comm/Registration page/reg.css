@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('purpbackkk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.reg-form {
+    
+    background: rgba(188, 99, 179, 0.2); 
+    padding: 40px 30px;
+    backdrop-filter: blur(25px); 
+    border-radius: 20px;
+    width: 400px;
+    color: #fff;
+    box-shadow: 0px 8px 24px rgba(207, 199, 207, 0.2);
+}
+
+.reg-title {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.input-box input,
+.input-box select {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #100505;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-box input::placeholder,
+.input-box select:invalid {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.input-box input:focus,
+.input-box select:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: 2px solid #d78eff;
+}
+
+.input-box label {
+    margin-bottom: 8px;
+}
+
+.input-box input[type="radio"] {
+    margin-right: 0;
+    margin-bottom: 5px;
+    transform: scale(1.1);
+    cursor: pointer;
+    accent-color: #ffffff;
+    display: block;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.reg-btn,
+.reset-btn {
+    flex: 1;
+    padding: 12px;
+    background: #ab40d1;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reg-btn:hover,
+.reset-btn:hover {
+    background: #7b1bd5;
+}
