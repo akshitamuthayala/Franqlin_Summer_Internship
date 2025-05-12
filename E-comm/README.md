@@ -1,12 +1,12 @@
-# E-Commerce UI – Login & Registration
+# E-Commerce Application
 
-## WEEK - 1 Progress
+## WEEK - 1
 
-A simple front-end UI for an e-commerce platform with **Home**, **Login**, and **Registration** pages built using **HTML, CSS, and JavaScript**.
+Front end user interface for an e-commerce platform with **Home**, **Login**, and **Registration** pages built using **HTML, CSS, and JavaScript**.
 
 ---
 
-## 📁 Project Structure  
+## Structure of the Application
 
 /e-commerce-ui
 ├── Home.html # Home/Index Page
@@ -45,7 +45,7 @@ A simple front-end UI for an e-commerce platform with **Home**, **Login**, and *
   - Address
   - Phone Number
   - DOB
-  - Gender (Radio)
+  - Gender (Radio Button)
   - State (Dropdown)
 
 - **Validation Rules:**
@@ -64,7 +64,7 @@ A simple front-end UI for an e-commerce platform with **Home**, **Login**, and *
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 
 ---
 
